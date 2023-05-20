@@ -10,12 +10,12 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: const ApplicationAppBar(),
-      drawer: const AppDrawer(),
-      floatingActionButton: const FloatinButton(),
+    return const Scaffold(
+      appBar: ApplicationAppBar(),
+      drawer: AppDrawer(),
+      floatingActionButton: FloatinButton(),
       body: Column(
-        children: const [Expanded(child: UserMap())],
+        children: [Expanded(child: UserMap())],
       ),
     );
   }
