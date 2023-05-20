@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "660378903943",
+    "project_id": "navapp4host",
+    "storage_bucket": "navapp4host.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660378903943:android:b7471fbeca840bab6f1f22",
+        "android_client_info": {
+          "package_name": "com.example.nav_app_4_host"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660378903943-ur8fkm8uh8rqf69napk2hg82omseighk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKZ0MTETKjvTig04hzSCCQYa01op24bvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660378903943-ur8fkm8uh8rqf69napk2hg82omseighk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
