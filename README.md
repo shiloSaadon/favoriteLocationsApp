@@ -1,6 +1,8 @@
 # nav_app_4_host
 
-A new Flutter project.
+this app is diaplay googl map and focuse on yout current location, you can all favorit locations to your list 
+and it will be marked on the map
+there are 2 themes and firebase google+email login
 
 ## Getting Started
 
