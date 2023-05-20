@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide SearchBar;
 import 'package:lottie/lottie.dart';
 import 'package:nav_app_4_host/providers/map_provider.dart';
 import 'package:nav_app_4_host/providers/user_provider.dart';

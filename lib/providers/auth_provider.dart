@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:nav_app_4_host/providers/map_provider.dart';
 import 'package:nav_app_4_host/providers/user_provider.dart';
 import 'package:nav_app_4_host/services.dart/auth.dart';
 
@@ -17,7 +18,7 @@ class AuthProvider extends ChangeNotifier {
   void signOut(BuildContext context) {
     Auth().signOuth();
     UserProvider().initUser();
-    //MapProvider().emptyMap();
+    MapProvider().emptyMap();
     // pushing the loggin screen
     Navigator.popAndPushNamed(context, '/sign-in');
     updateState();
